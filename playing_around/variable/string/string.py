@@ -11,3 +11,5 @@ print(message)
 #length
 
 print(len(message))
+# - takes to the last of the string
+print(course[-10])
