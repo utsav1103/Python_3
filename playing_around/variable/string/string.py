@@ -15,3 +15,9 @@ print(len(message))
 print(course[-10])
 # : prints form 0 to the given no.
 print(message[0:5])
+
+# []
+# we can use doulbe quote in single quote and prefix this with a \
+
+course1 = "Python \"Programming"
+print(course1)
