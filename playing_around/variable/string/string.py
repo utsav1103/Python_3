@@ -21,3 +21,15 @@ print(message[0:5])
 
 course1 = "Python \"Programming"
 print(course1)
+
+first = "mikasa"
+last = "Ackerman"
+full = first + " " + last
+print(full)
+
+# f prefix 
+
+first = "mikasa"
+last = "Ackerman"
+full = f"{first} {last}"
+print(full)
