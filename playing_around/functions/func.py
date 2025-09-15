@@ -9,3 +9,7 @@ print(name.rstrip())
 print(name.find("kasa"))#this returns index[]
 print(name.replace("ikasa","IKASA"))
 print("ker" in name)#it returns true or false
+
+
+print(round(2.9))
+print(abs(-2.9))
