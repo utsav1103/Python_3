@@ -34,3 +34,7 @@ print(f"x: {x}, y: {y}")
 # str(x)
 
 #false values "",0,None in bool these are false
+
+fruit = "Apple"
+
+print(fruit[1])
