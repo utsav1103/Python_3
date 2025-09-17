@@ -32,3 +32,5 @@ print(f"x: {x}, y: {y}")
 # float(x)
 # bool(x)
 # str(x)
+
+#false values "",0,None in bool these are false
