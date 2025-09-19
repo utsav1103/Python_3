@@ -39,4 +39,7 @@ print(f"x: {x}, y: {y}")
 
 fruit = "Apple"
 
-print(fruit[1])
+# print(fruit[1])
+# print(fruit[1:-1])
+
+print(bool("flase"))
