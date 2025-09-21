@@ -10,7 +10,12 @@
 
 
 age = 12
-if age >= 18:
+high_income = False
+good_credit = True
+student = True 
+# if not student:
+
+if high_income or good_credit:
     print("Eligible")
 else:
     print("Not Eligible")
