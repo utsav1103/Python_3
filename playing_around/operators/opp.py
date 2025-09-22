@@ -31,3 +31,10 @@ age = 22
 #if age>=18 and age <60 :
 if   18 <= age < 60:
     print("Eligible")
+
+    if 10 == "10":
+        print("a")
+    elif "bag" > "apple" and "bag" > "cat":
+        print("b")
+    else:
+        print("c")
