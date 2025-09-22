@@ -20,7 +20,14 @@ student = False
 # else:
 #     print("Not Eligible")
 
-if high_income and good_credit and not student:
+# if high_income and good_credit and not student:
+#     print("Eligible")
+# else:
+#     print("Not Eligible")
+
+#chaning operatos to write clean code
+
+age = 22
+#if age>=18 and age <60 :
+if   18 <= age < 60:
     print("Eligible")
-else:
-    print("Not Eligible")
