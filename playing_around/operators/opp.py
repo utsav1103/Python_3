@@ -40,4 +40,4 @@ student = False
 #         print("c")
 
 for number in range(3):
-    print("print 3 times", number + 1)
+    print("print 3 times", number + 1,(number + 1) * ".")
