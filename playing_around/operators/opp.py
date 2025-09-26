@@ -39,5 +39,6 @@ student = False
 #     else:
 #         print("c")
 
-for number in range(3):
-    print("print 3 times", number + 1,(number + 1) * ".")
+for number in range(1, 10,2):
+    #print("print 3 times", number + 1,(number + 1) * ".") 
+    print("Attempt", number, number * "." )
