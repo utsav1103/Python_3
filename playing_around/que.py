@@ -35,6 +35,7 @@ def consecutive_sim(l):
     end = idx-1
     res.append((val, start, end))
   return res
+  
 
 
 consecutive_sim([2, 3, 3, 3, 8, 8, 6, 7, 7])
