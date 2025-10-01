@@ -23,19 +23,45 @@
 #     s=3)
 
 
-def consecutive_sim(l):
-  idx = 0
-  res = []
+# def consecutive_sim(l):
+#   idx = 0
+#   res = []
 
-  while idx < len(l):
-    start = idx
-    val = l[idx]
-    while idx < len(l) and l[idx] == val:
-      idx += 1
-    end = idx-1
-    res.append((val, start, end))
-  return res
+#   while idx < len(l):
+#     start = idx
+#     val = l[idx]
+#     while idx < len(l) and l[idx] == val:
+#       idx += 1
+#     end = idx-1
+#     res.append((val, start, end))
+#   return res
   
 
 
-consecutive_sim([2, 3, 3, 3, 8, 8, 6, 7, 7])
+# consecutive_sim([2, 3, 3, 3, 8, 8, 6, 7, 7])
+
+
+def consecutive_sim(lst):
+    """
+    Takes a list and returns a list of tuples (value, start_index, end_index)
+    representing consecutive sequences of the same value.
+    """
+    idx = 0
+    res = []
+
+    while idx < len(lst):
+        start = idx
+        val = lst[idx]
+
+        # Move index forward while the value remains the same
+        while idx < len(lst) and lst[idx] == val:
+            idx += 1
+
+        end = idx - 1
+        res.append((val, start, end))
+
+    return res
+
+
+# Eample 
+print(consecutive_sim([2, 3, 3, 3, 8, 8, 6, 7, 7]))
