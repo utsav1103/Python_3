@@ -48,6 +48,7 @@ def consecutive_sim(lst):
     """
     idx = 0
     res = []
+    
 
     while idx < len(lst):
         start = idx
