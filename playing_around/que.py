@@ -66,4 +66,5 @@ def consecutive_sim(lst):
 
 # Eample 
 
+
 print(consecutive_sim([2, 3, 3, 3, 8, 8, 6, 7, 7]))
