@@ -48,7 +48,7 @@ def consecutive_sim(lst):
     """
     idx = 0
     res = []
-    
+
 
     while idx < len(lst):
         start = idx
@@ -65,4 +65,5 @@ def consecutive_sim(lst):
 
 
 # Eample 
+
 print(consecutive_sim([2, 3, 3, 3, 8, 8, 6, 7, 7]))
