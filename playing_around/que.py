@@ -64,6 +64,8 @@ def consecutive_sim(lst):
     return res
 
 
+
+
 # Eample 
 
 
