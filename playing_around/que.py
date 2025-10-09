@@ -57,6 +57,7 @@ def consecutive_sim(lst):
         # Move index forward while the value remains the same
         while idx < len(lst) and lst[idx] == val:
             idx += 1
+            
 
         end = idx - 1
         res.append((val, start, end))
