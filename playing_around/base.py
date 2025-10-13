@@ -5,5 +5,5 @@ def fact(n):
 
 
 
-num = 9
+num = 2+2
 print(fact(num))
